@@ -1,0 +1,139 @@
+@media only screen and (min-width : 0px) and (max-width : 768px)
+{
+
+.container{
+	font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+
+.todo-container{
+	margin-top: 100px;
+	width: 300px;
+}
+
+hr.sep{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hidden{
+	display: none;
+	border: none;
+}
+
+#task-list{
+	text-align: left;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#text:after{
+	content: "X";
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+a:hover{
+	color: #ccc;
+}
+
+a:active{
+	color: #aaa;
+}
+
+a.destroy{
+	line-height: 30px;
+	text-decoration: none;
+	color: red;
+	font-weight: 700;
+	font-size: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: block;
+	border-left: 1px solid #ccc;
+
+}
+
+a.destroy:hover{
+	color: red;
+}
+
+a.destroy:active{
+	color: #000;
+}
+
+.task{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid #ccc;
+	}
+
+.task-list-input{
+	margin-left: 5px;
+	border: none;
+	outline: none;
+	padding: 5px;
+	font-size: 16px;
+	width: 200px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.editing{
+	border: none;
+	background-color:white;
+    border:1px solid #ffcc00;
+    box-shadow:0 0 3px #ffcc00;
+    -moz-box-shadow:0 0 3px #ffcc00;
+    -webkit-box-shadow:0 0 3px #ffcc00;
+}
+	
+.destroy{
+	float: right;
+}
+
+.hover{
+	background-color: #F5F5F0;
+}
+
+#task-list li{
+	font-size: 18px;
+}
+
+#display-tasks{
+	margin-top: 15px;
+}
+
+#time{
+	margin-left: 20px;
+}
+
+#input-task{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	line-height: 50px;
+	height: 50px;
+	z-index: 2;
+	border-bottom: 1px solid #6c615c;
+	background: -webkit-linear-gradient(top, rgba(10, 10, 10, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+input#task-input{
+	font-size:14px;
+	padding: 10px 10px 10px 10px;
+	width: 210px;
+	border-radius: 10px;
+	border: none;
+}
+
+input:focus{
+	outline:none;
+}
+}

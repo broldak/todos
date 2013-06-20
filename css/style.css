@@ -1,0 +1,137 @@
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+{
+
+.container{
+	font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+
+.todo-container{
+	margin-top: 100px;
+	width: 600px;
+}
+
+hr.sep{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hidden{
+	display: none;
+	border: none;
+}
+
+#task-list{
+	text-align: left;
+}
+
+a#clearall{
+	color: white;
+}
+
+#clearall:hover{
+	color: #ccc;
+}
+
+#clearall:active{
+	color: #aaa;
+}
+
+a.destroy{
+	line-height: 60px;
+	text-decoration: none;
+	color: #bbb;
+	font-weight: 700;
+	font-size: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+	border-left: 1px solid #ccc;
+
+}
+
+a.destroy:hover{
+	color: red;
+}
+
+a.destroy:active{
+	color: #000;
+}
+
+.task{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #ccc;
+	}
+
+.task-list-input{
+	margin-left: 5px;
+	border: none;
+	outline: none;
+	padding: 5px;
+	font-size: 18px;
+	width: 520px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.editing{
+	border: none;
+	background-color:white;
+    border:1px solid #ffcc00;
+    box-shadow:0 0 3px #ffcc00;
+    -moz-box-shadow:0 0 3px #ffcc00;
+    -webkit-box-shadow:0 0 3px #ffcc00;
+}
+	
+.destroy{
+	float: right;
+}
+
+#text:after{
+	content: "clear all";
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+}
+
+.hover{
+	background-color: #F5F5F0;
+}
+
+#task-list li{
+	font-size: 18px;
+}
+
+#display-tasks{
+	margin-top: 15px;
+}
+
+#time{
+	margin-left: 20px;
+}
+
+#input-task{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	line-height: 80px;
+	height: 80px;
+	z-index: 2;
+	border-bottom: 1px solid #6c615c;
+	background: -webkit-linear-gradient(top, rgba(10, 10, 10, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+input#task-input{
+	font-size:18px;
+	padding: 16px 16px 16px 16px;
+	width: 500px;
+	border-radius: 10px;
+	border: none;
+}
+
+input:focus{
+	outline:none;
+}
+}
